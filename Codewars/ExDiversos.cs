@@ -5,8 +5,10 @@ using System.Text;
 
 namespace Codewars
 {
-    public class ExEvenOrOdd
+    public class ExDiversos
     {
+
+        //Retorna se o número é par ou ímpar
         public static string EvenOrOdd(int number)
         {
             if(number%2!=0)
@@ -14,6 +16,7 @@ namespace Codewars
             else return "Even";
         }
 
+        //Soma números de um array
         public static double SumArray(double[] array)
         {            
             double number = 0;
@@ -26,14 +29,23 @@ namespace Codewars
             return number;
         }
 
+        //Outra forma de somar números de um array
         public static double SumArray2(double[] array)
         {
             return array.Sum();
         }
 
+        //Multiplicar o valor de um nome onde cada caractere custa 30,00, sem usar o operador *
+        //não pode usar o sinal *
         public static double Billboard(string name, double price = 30)
-        {
-            return name.Length * (price);
+        {           
+            double soma = 0;           
+            
+            for(int i = 1; i <= name.Length; i++)
+            {
+                soma += price;
+            }
+            return soma;
            
         }
     }

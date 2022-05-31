@@ -18,7 +18,7 @@ namespace Codewars
 
             // ExIList.TreinamentoIList();
 
-            ExEvenOrOdd.Billboard("Joana");
+            //ExDiversos.Billboard("Joana");
 
 
 
