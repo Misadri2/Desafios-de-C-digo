@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace Codewars
 {
@@ -21,12 +20,46 @@ namespace Codewars
 
         }
 
-
-        //return an array with count of positives and sum of negatives    
-        public static int[] CountPositivesSumNegatives(int[] input)
+        //Soma números de um array
+        public static double SumArray(double[] array)
         {
-            return null;
+            double number = 0;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                number += array[i];
+
+            }
+            return number;
+        }
+       
+        //Retorna um array com contagem de positivos e soma de negativos
+        public static int[] CountPositivesSumNegatives(int[] input)
+        {         
+            if (input == null || input.Length == 0)
+            {
+                return new int[] {}; // aqui deve retornar vazio
+            }
+
+            int countPositives = input.Count(i => i > 0);
+            int sumNegatives = input.Where(i => i < 0).Sum();
+
+            return new int[] { countPositives, sumNegatives };           
+          
         }
 
+        //Calcula IMC e retorna mensagem conforme tabela
+        public static string Bmi(double weight, double height)
+        {
+            double bmi = weight / Math.Pow(height, 2);
+
+            if (bmi <= 18.5) return "Underweight";
+            if (bmi <= 25.0) return "Normal";
+            if (bmi <= 30.0) return "Overweight";
+            return "Obese";
+           
+            
+
+        }
     }
 }
