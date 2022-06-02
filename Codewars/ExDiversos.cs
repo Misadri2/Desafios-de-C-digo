@@ -48,5 +48,16 @@ namespace Codewars
             return soma;
            
         }
+
+        //retira os espaços da string
+        public static string NoSpace(string input)
+        {
+            return input.Replace(" ", "");
+
+            //Outras possibilidades:
+            //return input.Trim(); Tira os espaços do fim e do começo
+            //return input.TrimEnd(); Tira os espaços do fim 
+            //return input.TrimStart(); Tira os espaços do começo
+        }
     }
 }
