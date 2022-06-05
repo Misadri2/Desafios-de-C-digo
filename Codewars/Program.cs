@@ -22,7 +22,9 @@ namespace Codewars
 
             //CountbyX.ArrayLoop(new string[] { "volvo", "fiat" });
 
-            CountbyX.FindSmallestInt2(new int[] { 78, 56, 232, 12, 11, 43 });
+            //CountbyX.FindSmallestInt2(new int[] { 78, 56, 232, 12, 11, 43 });
+
+            RemovingElements.RemoveEveryOther(new object[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
 
 
 
