@@ -20,7 +20,9 @@ namespace Codewars
 
             //ExDiversos.Billboard("Joana");
 
-            CountbyX.CountBy(2, 5);
+            //CountbyX.ArrayLoop(new string[] { "volvo", "fiat" });
+
+            CountbyX.FindSmallestInt2(new int[] { 78, 56, 232, 12, 11, 43 });
 
 
 
