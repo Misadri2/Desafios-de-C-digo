@@ -20,6 +20,8 @@ namespace Codewars
 
             //ExDiversos.Billboard("Joana");
 
+            CountbyX.CountBy(2, 5);
+
 
 
 
