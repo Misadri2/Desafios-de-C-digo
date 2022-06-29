@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Codewars
 {
-    public class ExDiversos
+    public class EvenOrOdd
     {
 
         //Retorna se o número é par ou ímpar
-        public static string EvenOrOdd(int number)
+        public static string EvenOrOddEx(int number)
         {
             if(number%2!=0)
                 return "Odd";
