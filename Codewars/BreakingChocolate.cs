@@ -14,9 +14,9 @@ namespace Codewars
             // Se n vezes m for maior que zero, multiplica n vezes m e subtrai 1, se não for retorna 0
         }
 
-        public static string Greet(string name)
+        public static string Greet(string name, int age)
         {
-            return ($"Hello, {name} how are you doing today?");
+            return ($"Hello, {name} {age} how are you doing today?");
         }
 
         public static string Greet2(string name)
