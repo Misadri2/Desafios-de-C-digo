@@ -7,7 +7,7 @@ namespace Codewars
     //Desafio Meli foi mais complicado, mas isso foi o que consegui entregar.
     public class DesafioMeli
     {
-        public void SomadeDigitos(int numero)
+        public static void SomadeDigitos(int numero)
         {
             
             //Pode ser feito pedindo ao usuário ou declarando na chamada do método
