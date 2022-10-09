@@ -18,6 +18,21 @@ namespace Codewars
         {
             return ($"Hello, {name} how are you doing today?");
         }
-        
+
+        public static string Greet2(string name)
+        {
+            return ($"Hello, {name} how are you doing today?");
+        }
+
+        public static string Greet3(string name)
+        {
+            return ($"Hello, {name} how are you doing today?");
+        }
+
+        public static string Greet4(string name)
+        {
+            return ($"Hello, {name} how are you doing today?");
+        }
+
     }
 }
