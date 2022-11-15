@@ -8,13 +8,11 @@ namespace Codewars
     {
         static void Main(string[] args)
         {
-
             //ANeedleintheHaystack aNeedleintheHaystack = new ANeedleintheHaystack();
 
             //ANeedleintheHaystack.FindNeedle(); // nesse caso como a classe é static não precisa ser instanciada
 
-            DesafioMeli.SomadeDigitos(7768);
-
+            //DesafioMeli.SomadeDigitos(7768);
 
             // ExIList.TreinamentoIList();
 
@@ -29,13 +27,12 @@ namespace Codewars
             // BreakingChocolate.BreakChocolate(8, 5);
 
             // BreakingChocolate.Greet("Mislaine");
-            
 
+            Pets.OrderByEx1();
         }
-
-
     }
-
 }
+
+
 
 
