@@ -28,7 +28,9 @@ namespace Codewars
 
             // BreakingChocolate.Greet("Mislaine");
 
-            Pets.OrderByEx1();
+            //Pets.OrderByEx1();
+
+            RemoveSmallestNumberArray.RemoveSmallest(new List<int> { 8, 2, 3, 4, 5 });
         }
     }
 }
