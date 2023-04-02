@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Codewars
 {
-    internal class RemoveSmallestNumberArray
+    public class RemoveSmallestNumberArray
     {
         public static List<int> RemoveSmallest(List<int> numbers)
         {
