@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public static class ExIList
     {
@@ -19,7 +19,7 @@ namespace Codewars
             };
             //Efetuando uma consulta:            
 
-         
+
 
             var tags2 = tagsList.Where(t => t.Length >= 8).ToList();
             tagsList[0] = "SQLSERVER";

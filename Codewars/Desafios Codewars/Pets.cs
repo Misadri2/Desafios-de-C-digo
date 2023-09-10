@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public abstract class Pets
     {
@@ -17,10 +17,10 @@ namespace Codewars
             Pet[] pets = { new Pet { Name="Barley", Age=8 },
                    new Pet { Name="Boots", Age=4 },
                    new Pet { Name="Whiskers", Age=1 },
-                   new Pet { Name="Bruce", Age=2 },
-                   new Pet { Name="Mary", Age=1 },
-                   new Pet { Name="Chiclete", Age=4 },
-                   new Pet { Name="Ringo", Age=10 }
+                   new Pet { Name="Bruce", Age=3 },
+                   new Pet { Name="Mary", Age=2 },
+                   new Pet { Name="Chiclete", Age=5 },
+                   new Pet { Name="Ringo", Age=3 }
             };
 
             IEnumerable<Pet> query = pets.OrderBy(pet => pet.Age).Take(3);

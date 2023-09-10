@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class EvenOrOdd
     {
@@ -11,20 +11,20 @@ namespace Codewars
         //Retorna se o número é par ou ímpar
         public static string EvenOrOddEx(int number)
         {
-            if(number%2!=0)
+            if (number % 2 != 0)
                 return "Odd";
             else return "Even";
         }
 
         //Soma números de um array
         public static double SumArray(double[] array)
-        {            
+        {
             double number = 0;
 
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 number += array[i];
-               
+
             }
             return number;
         }
@@ -38,15 +38,15 @@ namespace Codewars
         //Multiplicar o valor de um nome onde cada caractere custa 30,00, sem usar o operador *
         //não pode usar o sinal *
         public static double Billboard(string name, double price = 30)
-        {           
-            double soma = 0;           
-            
-            for(int i = 1; i <= name.Length; i++)
+        {
+            double soma = 0;
+
+            for (int i = 1; i <= name.Length; i++)
             {
                 soma += price;
             }
             return soma;
-           
+
         }
 
         //retira os espaços da string

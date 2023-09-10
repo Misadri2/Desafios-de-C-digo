@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class RemoveSmallestNumberArray
     {

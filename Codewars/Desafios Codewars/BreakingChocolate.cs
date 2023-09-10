@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class BreakingChocolate
     {
@@ -16,22 +16,22 @@ namespace Codewars
 
         public static string Greet(string name, int age)
         {
-            return ($"Hello, {name} {age} how are you doing today?");
+            return $"Hello, {name} {age} how are you doing today?";
         }
 
         public static string Greet2(string name)
         {
-            return ($"Hello, {name} how are you doing today?");
+            return $"Hello, {name} how are you doing today?";
         }
 
         public static string Greet3(string name)
         {
-            return ($"Hello, {name} how are you doing today?");
+            return $"Hello, {name} how are you doing today?";
         }
 
         public static string Greet4(string name)
         {
-            return ($"Hello, {name} how are you doing today?");
+            return $"Hello, {name} how are you doing today?";
         }
 
     }

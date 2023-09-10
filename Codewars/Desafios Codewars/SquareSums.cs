@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class SquareSums
     {
@@ -11,8 +11,10 @@ namespace Codewars
             return (int)n.Sum(i => Math.Pow(i, 2));
         }
 
+        
+
         public static int sumTwoSmallestNumbers(int[] numbers)
-        {         
+        {
             return numbers.OrderBy(i => i).Take(2).Sum();
         }
 

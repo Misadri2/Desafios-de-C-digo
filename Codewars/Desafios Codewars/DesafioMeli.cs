@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     //Desafio Meli foi mais complicado, mas isso foi o que consegui entregar.
     public class DesafioMeli
     {
         public static void SomadeDigitos(int numero)
         {
-            
+
             //Pode ser feito pedindo ao usuário ou declarando na chamada do método
             // int numero;
             //Console.WriteLine("Infome o número: ");
@@ -33,6 +33,6 @@ namespace Codewars
             }
             Console.ReadKey();
         }
-        
+
     }
 }
