@@ -11,7 +11,7 @@ namespace Codewars.Desafios
         {
             return n * m > 0 ? n * m - 1 : 0;
 
-            // Se n vezes m for maior que zero, multiplica n vezes m e subtrai 1, se não for retorna 0
+            // Se n * m for maior que zero, multiplica n * m e subtrai 1, se não for retorna 0
         }
 
         public static void Greet(string name, int age)
