@@ -14,14 +14,15 @@ namespace Codewars.Desafios
             // Se n vezes m for maior que zero, multiplica n vezes m e subtrai 1, se não for retorna 0
         }
 
-        public static string Greet(string name, int age)
+        public static void Greet(string name, int age)
         {
-            return $"Hello, {name} {age} how are you doing today?";
+            Console.WriteLine($"Hello {name}, {age} how are you doing today?"); 
+
         }
 
-        public static string Greet2(string name)
+        public static void Greet2(string name)
         {
-            return $"Hello, {name} how are you doing today?";
+            Console.WriteLine($"Hello {name}, how are you doing today?");
         }
 
         public static string Greet3(string name)

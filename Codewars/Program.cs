@@ -28,7 +28,7 @@ namespace Codewars
 
             //BreakingChocolate.BreakChocolate(8, 5);
 
-            //BreakingChocolate.Greet("Mislaine");
+            BreakingChocolate.Greet2("Mary");
 
             //Pets.OrderByEx1();
 
@@ -36,7 +36,7 @@ namespace Codewars
 
             // SquareSums.sumTwoSmallestNumbers(new int[] { 782, 56, 232, 152, 181, 43 });
 
-            Soma_de_dois_números_em_uma_lista.TwoSum(new int[] { 782, 50, 232, 150, 181, 43 }, 200);
+            //Soma_de_dois_números_em_uma_lista.TwoSum(new int[] { 782, 50, 232, 150, 181, 43 }, 200);
         }
     }
 }
