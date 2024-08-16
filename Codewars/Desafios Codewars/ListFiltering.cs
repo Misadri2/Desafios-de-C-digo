@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class ListFiltering
     {

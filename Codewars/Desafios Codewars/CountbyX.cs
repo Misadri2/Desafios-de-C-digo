@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class CountbyX
     {
@@ -35,7 +35,7 @@ namespace Codewars
                 }
             }
             return smallest;
-        }   
+        }
 
         //You can loop through the array elements with the for loop,
         //and use the Length property to specify how many times the loop should run.        

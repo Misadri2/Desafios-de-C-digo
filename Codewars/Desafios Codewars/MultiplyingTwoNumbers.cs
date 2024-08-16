@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class MultiplyingTwoNumbers
     {
@@ -32,20 +32,20 @@ namespace Codewars
             }
             return number;
         }
-       
+
         //Retorna um array com contagem de positivos e soma de negativos
         public static int[] CountPositivesSumNegatives(int[] input)
-        {         
+        {
             if (input == null || input.Length == 0)
             {
-                return new int[] {}; // aqui deve retornar vazio
+                return new int[] { }; // aqui deve retornar vazio
             }
 
             int countPositives = input.Count(i => i > 0);
             int sumNegatives = input.Where(i => i < 0).Sum();
 
-            return new int[] { countPositives, sumNegatives };           
-          
+            return new int[] { countPositives, sumNegatives };
+
         }
 
         //Calcula IMC e retorna mensagem conforme tabela
@@ -57,8 +57,8 @@ namespace Codewars
             if (bmi <= 25.0) return "Normal";
             if (bmi <= 30.0) return "Overweight";
             return "Obese";
-           
-            
+
+
 
         }
     }

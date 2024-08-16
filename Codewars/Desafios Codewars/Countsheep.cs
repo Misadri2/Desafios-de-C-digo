@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
-   public class Countsheep
+    public class Countsheep
     {
         //Em um array de ovelhas/sheeps conta a quantidade de sheep/ovelha;
         public static int CountSheeps(bool[] sheeps)

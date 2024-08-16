@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Codewars
+namespace Codewars.Desafios
 {
     public class HowGood
     {
