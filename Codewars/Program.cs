@@ -26,7 +26,7 @@ namespace Codewars
 
             //RemovingElements.RemoveEveryOther(new object[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
 
-            BreakingChocolate.BreakChocolate(8, 5);
+            //BreakingChocolate.BreakChocolate(8, 5);
 
             // BreakingChocolate.Greet2("Mary");
 
